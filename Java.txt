@@ -1,8 +1,0 @@
-Java BoxLayout
-https://www.jb51.net/article/231099.htm
-
-資安
-https://github.com/Ice1187/TW-Security-and-CTF-Resource?tab=readme-ov-file
-
-Kotlin
-https://developer.android.com/courses?hl=zh-tw
