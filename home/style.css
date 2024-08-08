@@ -1,9 +1,14 @@
 body{
   display: flex;
+  flex-direction: column;
   margin: 20px;
 }
-p{
-  color: #3473B6;
+hi{
+  background-color: #3473B6;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
 }
 table{
   
