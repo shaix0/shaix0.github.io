@@ -1,9 +1,9 @@
 body{
+  background-color: #e0e0e0;
   display: flex;
-  flex-direction: column;
   margin: 20px;
 }
-hi{
+h1{
   background-color: #3473B6;
   color: white;
   padding: 10px;
