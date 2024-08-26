@@ -18,8 +18,5 @@ th{
 img{
   max-width: 100%;
   max-height: auto;
-  margin: 50px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
