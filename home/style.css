@@ -22,7 +22,6 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid;
 }
 img img{
   max-width: 100%;
