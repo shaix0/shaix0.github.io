@@ -1,4 +1,6 @@
 body{
+  margin: 0;
+  display: block;
   background-color: #e0e0e0;
 }
 h1{
@@ -15,7 +17,7 @@ th{
   color: #3473B6;
 }
 wel{
-  margin: 0px;
+  
 }
 wel img{
   max-width: 100%;
