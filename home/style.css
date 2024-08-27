@@ -16,17 +16,11 @@ th{
   color: #3473B6;
 }
 wel{
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -999;
 }
 wel img{
-  min-height: 100%;
-  min-width: 1000px;
+  margin: 0;
   max-width: 100%;
   max-height: auto;
   display: flex;
+  align-items: center;
 }
