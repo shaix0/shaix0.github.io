@@ -15,9 +15,17 @@ table{
 th{
   color: #3473B6;
 }
+wel{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
+}
 wel img{
-  top: -20px;
-  left: -20px;
+  min-height: 100%;
+  min-width: 1000px;
   max-width: 100%;
   max-height: auto;
   display: flex;
