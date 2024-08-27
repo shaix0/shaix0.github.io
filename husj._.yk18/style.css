@@ -2,6 +2,7 @@ body{
   margin: 0 auto;
   display: block;
   background-color: #e0e0e0;
+  background-image: url(../husj._.yk18/img/welcome.jpeg);
 }
 h1{
   background-color: #3473B6;
@@ -16,10 +17,7 @@ table{
 th{
   color: #3473B6;
 }
-wel{
-  
-}
-wel img{
+.wel-img{
   max-width: 100%;
   max-height: auto;
   display: flex;
