@@ -16,8 +16,8 @@ th{
   color: #3473B6;
 }
 wel img{
-  top: 0;
-  left: 0;
+  top: -20px;
+  left: -20px;
   max-width: 100%;
   max-height: auto;
   display: flex;
