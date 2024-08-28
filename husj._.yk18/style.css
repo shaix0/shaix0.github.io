@@ -24,14 +24,17 @@ h1{
 }
 .b-item{
   list-style: none;
+  display: inline;
   bottom: 0%;
   border-radius: 8px 8px 0 0;
   background-color: #000000;
+  background: linear-gradient(90deg,rgb(0 0 0 / 50%) 0,rgb(0 0 0 / 50%) 100%);
   width: 130px;
   position: absolute;
 }
 .list-text{
   color: white;
+  font-style: ;
   text-align: center;
 }
 table{
