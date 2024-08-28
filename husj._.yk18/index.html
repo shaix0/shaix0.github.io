@@ -6,7 +6,12 @@
   <script>
     function menu(){
       var content = document.getElementById("bottom-list-w");
-      bottom-list-w.classList.toggle("hidden");
+      if (content.style.display === "none") {
+        content.style.display = "block"; // 顯示元素
+      }
+      else {
+        content.style.display = "none"; // 隱藏元素
+      }
     }
   </script>
   
