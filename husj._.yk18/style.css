@@ -41,6 +41,9 @@ h1{
   font-style: ;
   text-align: center;
 }
+.menu{
+  user-select: none;
+}
 #click{
   display: none;
 }
