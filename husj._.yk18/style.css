@@ -41,10 +41,10 @@ h1{
   font-style: ;
   text-align: center;
 }
-.click{
+#click{
   display: none;
 }
-.click:checked ~ * .b-list {
+#click:checked ~ * .b-list {
   visibility: visible;
 }
 
