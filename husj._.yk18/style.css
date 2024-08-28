@@ -2,8 +2,9 @@ body{
   margin: 0 auto;
   display: block;
   background-color: #e0e0e0;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(5.5px);
   background-image: url(../husj._.yk18/img/welcome.jpeg);
+  background-position: center;
 }
 h1{
   color: white;
