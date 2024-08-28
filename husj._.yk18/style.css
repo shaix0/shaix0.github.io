@@ -41,7 +41,13 @@ h1{
   text-align: center;
 }
 bottom-list-w{
-
+  visibility: collapse;
+}
+.click{
+  display: none;
+}
+.click:checked ~ * .bottom-list-w {
+  visibility: visible;
 }
 
 table{
