@@ -22,6 +22,9 @@ h1{
 .sub-text{
   font-size: 1.3vw;
 }
+.b-list{
+  padding: 0;
+}
 .b-item{
   list-style: none;
   display: inline;
