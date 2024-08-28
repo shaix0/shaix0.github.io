@@ -23,6 +23,7 @@ h1{
   font-size: 1.3vw;
 }
 .b-list{
+  visibility: collapse;
   padding: 0;
 }
 .b-item{
@@ -40,13 +41,10 @@ h1{
   font-style: ;
   text-align: center;
 }
-bottom-list-w{
-  visibility: collapse;
-}
 .click{
   display: none;
 }
-.click:checked ~ * .bottom-list-w {
+.click:checked ~ * .b-list {
   visibility: visible;
 }
 
