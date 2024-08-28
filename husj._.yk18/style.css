@@ -7,7 +7,7 @@ h1{
   color: white;
   text-align: center;
 }
-.wel-wrapper{
+.wel-background{
   filter: blur(15px);
   background-image: url(../husj._.yk18/img/welcome.jpeg);
 }
