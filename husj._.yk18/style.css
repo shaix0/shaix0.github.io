@@ -32,13 +32,14 @@ a:hover{
 }
 
 .bottom-list-w{
-  visibility: collapse;
   position: absolute;
   right:0;
   top: 27;
   overflow: hidden;
 }
 .b-list{
+  position: relative;
+  right: -100%;
   padding: 0;
   border-radius: 3vw 0 0 3vw;
   overflow: hidden;
@@ -77,29 +78,14 @@ a:hover{
   display: none;
 }
 #click-menu:checked ~ * .b-list {
-  visibility: visible;
-  animation: Slidein 0.93s ease-in-out 0s 1 alternate forwards;
+  transform: translateX(-100%);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
 }
 #click-menu:not(:checked) ~ * .b-list {
-  visibility: visible;
-  animation: Slideout 0.93s ease-in-out 0s 1 alternate forwards;
-}
-
-@keyframes Slidein{
-  0%{
-    transform: translateX(100%);
-  }
-  100%{
-    transform: translateX(0%);
-  }
-}
-@keyframes Slideout{
-  0%{
-    transform: translateX(0%);
-  }
-  100%{
-    transform: translateX(100%);
-  }
+  transform: translateX(100%);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
 }
 
 table{
