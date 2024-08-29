@@ -10,6 +10,13 @@ h1{
   color: white;
   text-align: center;
 }
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
 .mid-text{
   text-align: center;
   font-size: 4vw;
