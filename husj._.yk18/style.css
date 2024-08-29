@@ -22,12 +22,16 @@ h1{
 .sub-text{
   font-size: 1.3vw;
 }
-.b-list{
+
+.bottom-list-w{
   visibility: collapse;
-  padding: 0;
   position: absolute;
   right:0;
   top: 27;
+  overflow: hidden;
+}
+.b-list{
+  padding: 0;
   border-radius: 3vw 0 0 3vw;
   overflow: hidden;
 }
@@ -37,6 +41,9 @@ h1{
   background-color: #0000005e;
   width: 150px;
   position: relative;
+}
+.b-item:hover{
+  background-color: #00000094;
 }
 .list-text{
   color: white;
@@ -54,11 +61,25 @@ h1{
   text-align: center;
   font-size: 20;
 }
+.menu:hover{
+  background-color:#e2e2e2b0;
+}
+
 #click-menu{
   display: none;
 }
 #click-menu:checked ~ * .b-list {
   visibility: visible;
+  animation: Slidein 0.93s ease-in-out 0s 1 alternate forwards;
+}
+
+@keyframes Slidein{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
 }
 
 table{
