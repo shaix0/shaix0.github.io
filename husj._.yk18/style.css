@@ -6,6 +6,7 @@ body{
   backdrop-filter: blur(2.5px);
   background-image: url(../husj._.yk18/img/sleep.jpg);
   background-position: center;
+  background-size: cover;
 }
 .wel-text{
   font-family: DFKai-sb;
