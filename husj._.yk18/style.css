@@ -34,13 +34,22 @@ a:hover{
 }
 .sub-text span{
   position: relative;
-  font-size: 2em;
-  color: #fff;
+  font-size: 1.6vw;
   display: inline-block;
-  text-transform: uppercase;
-  animation: animate 2s ease-in-out infinite;
+  animation: dot 1.8s ease-in-out infinite;
   animation-delay: calc(0.1s * var(--i));
   animation-play-state: paused;
+}
+.sub-text:hover span{
+  animation-play-state: running;
+}
+@keyframes dot{
+  0%,40%,100%{
+    transform: translateY(0);
+  }
+  20%{
+    transform: translateY(-10px);
+  }
 }
 
 .bottom-list-w{
