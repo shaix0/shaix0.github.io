@@ -32,6 +32,16 @@ a:hover{
 .sub-text{
   font-size: 1.5vw;
 }
+.sub-text span{
+  position: relative;
+  font-size: 2em;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: animate 2s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+  animation-play-state: paused;
+}
 
 .bottom-list-w{
   position: absolute;
