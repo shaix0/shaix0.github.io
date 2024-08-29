@@ -80,7 +80,7 @@ a:hover{
   animation: Slidein 0.93s ease-in-out 0s 1 alternate forwards;
 }
 #click-menu:not(:checked) ~ * .b-list {
-  animation: Slidein 0.93s ease-in-out 0s 1 alternate forwards;
+  animation: Slideout 0.93s ease-in-out 0s 1 alternate forwards;
 }
 
 @keyframes Slidein{
