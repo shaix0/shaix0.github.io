@@ -32,7 +32,6 @@ a:hover{
 }
 
 .bottom-list-w{
-  visibility: collapse;
   position: absolute;
   right:0;
   top: 27;
