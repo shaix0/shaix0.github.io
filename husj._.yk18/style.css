@@ -32,6 +32,7 @@ a:hover{
 }
 
 .bottom-list-w{
+  visibility: collapse;
   position: absolute;
   right:0;
   top: 27;
@@ -80,6 +81,7 @@ a:hover{
   animation: Slidein 0.93s ease-in-out 0s 1 alternate forwards;
 }
 #click-menu:not(:checked) ~ * .b-list {
+  visibility: visible;
   animation: Slideout 0.93s ease-in-out 0s 1 alternate forwards;
 }
 
