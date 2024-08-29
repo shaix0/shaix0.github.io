@@ -7,11 +7,11 @@ body{
   background-image: url(../husj._.yk18/img/welcome.jpeg);
   background-position: center;
 }
-h1{
+.wel-text{
+  font-family: DFKai-sb;
   color: white;
   text-align: center;
 }
-
 a{
   text-decoration: none;
 }
