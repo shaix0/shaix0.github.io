@@ -120,7 +120,7 @@ a:hover{
   transition-duration: 1.5s;
   transition-timing-function: ease-in-out;
 }
-#click-intro:not(:checked) ~ * .b-list {
+#click-intro:not(:checked) ~ * .introduce {
   transform: translateY(100%);
   transition-duration: 1.5s;
   transition-timing-function: ease-in-out;
