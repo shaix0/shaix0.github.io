@@ -146,9 +146,8 @@ a:hover{
 }
 .back{
   display: inline-flex;
-  position: relative;
-  bottom: -100%;
-  transform: translateY(-100%);
+  position: absolute;
+  bottom: 0%;
   margin-inline: 2vw;
   color: white;
   font-size: 1.5vw;
@@ -159,6 +158,19 @@ a:hover{
     transform: translateX(.35vw);
   }
   text-shadow: #00000090 0.1em 0.1em 0.1em;
+}
+.icon{
+  position: relative;
+  width: 9.5vw;
+  height: 9.5vw;
+  padding: 0;
+  border-radius: 5vw;
+  overflow: hidden;
+}
+.icon img{
+  max-width: 100%;
+  max-height: auto;
+  align-items: center;
 }
 
 table{
