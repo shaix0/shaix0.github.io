@@ -9,6 +9,7 @@ body{
   background-size: cover;
 }
 .wel-text{
+  margin: 3.5vw;
   font-family: DFKai-sb;
   font-size: 6vw;
   color: white;
@@ -49,7 +50,7 @@ a:hover{
     transform: translateY(0);
   }
   20%{
-    transform: translateY(-10px);
+    transform: translateY(-.6px);
   }
 }
 
