@@ -118,12 +118,12 @@ a:hover{
 }
 #click-intro:checked ~ * .introduce {
   transform: translateY(0%);
-  transition-duration: 1.5s;
+  transition-duration: 1.2s;
   transition-timing-function: ease-in-out;
 }
 #click-intro:not(:checked) ~ * .introduce {
   transform: translateY(100%);
-  transition-duration: 1.5s;
+  transition-duration: 1.2s;
   transition-timing-function: ease-in-out;
 }
 .introduce-w{
