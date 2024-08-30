@@ -34,7 +34,7 @@ a:hover{
   color: white;
   font-size: 1.5vw;
 }
-.sub-text:hover{
+.back:hover,.sub-text:hover{
   text-shadow: #00000090 0.1em 0.1em 0.1em;
 }
 .sub-text span{
