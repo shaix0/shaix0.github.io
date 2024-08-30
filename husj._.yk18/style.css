@@ -55,6 +55,7 @@ a:hover{
 
 .bottom-list-w{
   position: absolute;
+  z-index: 2;
   right:0;
   top: 27;
   overflow: hidden;
@@ -83,6 +84,7 @@ a:hover{
 }
 .menu{
   position: absolute;
+  z-index: 2;
   right: 0;
   user-select: none;
   padding: 10 0 10 0;
@@ -110,11 +112,30 @@ a:hover{
   transition-timing-function: ease-in-out;
 }
 
-.introduce{
+#click-intro{
+  display: none;
+}
+#click-intro:checked ~ * .introduce {
+  transform: translateY(-100%);
+  transition-duration: 1.5s;
+  transition-timing-function: ease-in-out;
+}
+#click-intro:not(:checked) ~ * .b-list {
+  transform: translateY(100%);
+  transition-duration: 1.5s;
+  transition-timing-function: ease-in-out;
+}
+.introduce-w{
   position: absolute;
+  right:0;
+  overflow: hidden;
+}
+.introduce{
+  position: relative;
+  bottom: -100%;
   width: 100%;
   height: 100%;
-  background-color: #af9e8cbf;
+  background-color: #af9e8c;
 }
 
 table{
