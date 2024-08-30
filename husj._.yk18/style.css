@@ -50,7 +50,7 @@ a:hover{
     transform: translateY(0);
   }
   20%{
-    transform: translateY(-.6px);
+    transform: translateY(-.6vw);
   }
 }
 
