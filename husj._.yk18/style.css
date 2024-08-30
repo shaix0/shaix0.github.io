@@ -126,7 +126,7 @@ a:hover{
   transition-timing-function: ease-in-out;
 }
 .introduce-w{
-  pointer-events: visible;
+  pointer-events: none;
   width: 100%;
   height: 100%;
   overflow: hidden;
