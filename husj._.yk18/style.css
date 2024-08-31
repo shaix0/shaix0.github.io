@@ -65,7 +65,7 @@ a:hover{
 }
 
 .bottom-list-w{
-  position: absolute;
+  position: fixed;
   z-index: 2;
   right:0;
   top: 27;
@@ -94,7 +94,7 @@ a:hover{
   text-align: center;
 }
 .menu{
-  position: absolute;
+  position: fixed;
   z-index: 2;
   right: 0;
   user-select: none;
