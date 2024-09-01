@@ -156,7 +156,7 @@ a:hover{
 .about{
   text-align: center;
 }
-.about-t , .member-t{
+.about-t{
   color: white;
   font-size: 3vw;
   font-weight: bold;
@@ -172,6 +172,12 @@ a:hover{
 .member-w{
   display: flex;
   flex-direction: column;
+}
+.member-t{
+  text-align: center;
+  color: white;
+  font-size: 3vw;
+  font-weight: bold;
 }
 .member{
   background-color: #ffffff87;
