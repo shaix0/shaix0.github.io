@@ -168,6 +168,9 @@ a:hover{
   background-color: #efeae5ab;
   font-size: 2vw;
 }
+.member-w{
+  display: flex;
+}
 .member{
   background-color: #ffffff87;
   margin: 2vw;
