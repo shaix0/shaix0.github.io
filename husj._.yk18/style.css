@@ -156,7 +156,7 @@ a:hover{
 .about{
   text-align: center;
 }
-.about-t{
+.about-t , .member-t{
   color: white;
   font-size: 3vw;
   font-weight: bold;
