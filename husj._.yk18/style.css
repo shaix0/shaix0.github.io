@@ -168,16 +168,30 @@ a:hover{
   background-color: #efeae5ab;
   font-size: 2vw;
 }
+
 .member-w{
   display: flex;
+  flex-direction: column;
 }
 .member{
   background-color: #ffffff87;
-  margin: 2vw;
+  margin-inline: 0;
+  margin-block: 2vw;
   padding: 2vw;
   border-radius: 2vw;
   font-size: 1.5vw;
 }
+
+@media screen and (min-width: 767px){
+  .member-w{
+  flex-direction: row;
+  }
+  .member{
+    margin-block: 0;
+    margin-inline: 2vw;
+  }
+}
+
 .icon{
   position: relative;
   width: 6.5vw;
