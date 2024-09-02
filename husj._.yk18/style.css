@@ -141,14 +141,14 @@ a:hover{
     height: 120vw;
   }
 }
-@media screen and (min-height: 70vw) and (min-width: 767px){
+@media screen and (min-height: 80vw) and (min-width: 767px){
   #click-intro:checked ~ * .introduce {
     height: 100%;
   }
 }
-@media screen and (max-height: 69vw) and (min-width: 767px){
+@media screen and (max-height: 79vw) and (min-width: 767px){
   #click-intro:checked ~ * .introduce {
-    height: 70vw;
+    height: 80vw;
   }
 }
 
