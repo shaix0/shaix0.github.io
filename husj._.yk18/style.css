@@ -233,6 +233,7 @@ a:hover{
   align-items: center;
 }
 .m-intro-text{
+  line-height: 1.5;
   margin-bottom: 0;
 }
 .back{
