@@ -130,7 +130,6 @@ a:hover{
   transform: translateY(0%);
   transition-duration: 1.2s;
   transition-timing-function: ease-in-out;
-  height: 200%;
 }
 #click-intro:not(:checked) ~ * .introduce {
   transform: translateY(100%);
