@@ -137,6 +137,11 @@ a:hover{
   transition-duration: 1.2s;
   transition-timing-function: ease-in-out;
 }
+@media screen and (max-height: 100vw){
+  #click-intro:checked ~ * .introduce {
+    height: auto;
+  }
+}
 
 /**/
 .introduce-w{
@@ -181,10 +186,13 @@ a:hover{
 }
 .member{
   background-color: #ffffff87;
-  margin: 2vw;
+  margin: 0 2vw 2vw;
   padding: 2vw;
   border-radius: 2vw;
   font-size: 1.5vw;
+}
+.member:first-child{
+  margin: 2vw;
 }
 
 @media screen and (min-width: 767px){
@@ -192,7 +200,12 @@ a:hover{
   flex-direction: row;
   }
   .member{
-    margin-block: 0;
+    margin: 2vw 2vw 0 0;
+    flex-basis: 20%;
+    margin-right: 2vw;
+  }
+  .member:first-child{
+    margin: 2vw 2vw 0 2vw;
   }
 }
 
