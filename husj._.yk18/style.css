@@ -177,9 +177,10 @@ a:hover{
 }
 .about-sub{
   margin: 2vw;
-  padding: 2vw;
+  padding: 2.5vw;
   border-radius: 2vw;
-  background-color: #efeae5ab;
+  background-color: #efeae5b8;
+  line-height: 1.5;
   font-size: 2vw;
 }
 
@@ -194,7 +195,7 @@ a:hover{
   font-weight: bold;
 }
 .member{
-  background-color: #ffffff87;
+  background-color: #efeae5b8;
   margin: 0 2vw 2vw;
   padding: 2vw;
   border-radius: 2vw;
