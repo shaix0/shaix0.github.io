@@ -138,7 +138,7 @@ a:hover{
 }
 @media screen and (max-height: 110vw){
   #click-intro:checked ~ * .introduce {
-    height: 110vw;;
+    height: 120vw;;
   }
 }
 
