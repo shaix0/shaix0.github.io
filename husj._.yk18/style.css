@@ -136,9 +136,19 @@ a:hover{
   transition-duration: 1.2s;
   transition-timing-function: ease-in-out;
 }
-@media screen and (max-height: 110vw){
+@media screen and (max-height: 113.5vw) and (max-width: 766px){
   #click-intro:checked ~ * .introduce {
-    height: 120vw;;
+    height: 120vw;
+  }
+}
+@media screen and (min-height: 70vw) and (min-width: 767px){
+  #click-intro:checked ~ * .introduce {
+    height: 100%;
+  }
+}
+@media screen and (max-height: 69vw) and (min-width: 767px){
+  #click-intro:checked ~ * .introduce {
+    height: 70vw;
   }
 }
 
